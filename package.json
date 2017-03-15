@@ -1,0 +1,29 @@
+{
+  "name": "ffip",
+  "version": "0.0.1",
+  "description": "find ip address on the terminal",
+  "main": "ffip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sinchang/ffip.git"
+  },
+  "keywords": [
+    "ip",
+    "terminal",
+    "node"
+  ],
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "ffip": "ffip.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "yargs": "^7.0.2",
+    "https": "^1.0.0",
+    "iconv-lite": "^0.4.15"
+  }
+}
