@@ -1,12 +1,17 @@
 #!/usr/bin/env node
 var c = require('colors'),
-    https = require('https'),
-    iconv = require('iconv-lite'),
-    argv = require('yargs')
+  https = require('https'),
+  iconv = require('iconv-lite'),
+  argv = require('yargs')
     .option('ip', {
       demand: true,
-      describe: 'your ip'
+      describe: 'input your ip'
     })
+    .example('$0 ffip --ip 127.0.0.1')
+    .help()
+    .version()
+    .alias('h', 'help')
+    .alias('v', 'version')
     .argv
 
 var options = {

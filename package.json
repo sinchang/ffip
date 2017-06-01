@@ -1,6 +1,6 @@
 {
   "name": "ffip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "find ip address on the terminal",
   "main": "ffip.js",
   "scripts": {
